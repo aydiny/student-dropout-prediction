@@ -79,10 +79,6 @@ Despite Neural Networks showing marginally higher AUC in some tests, **XGBoost**
 
 ```text
 ├── notebooks/
-│   ├── 01_EDA_and_Preprocessing.ipynb
-│   ├── 02_Stage1_Demographics.ipynb
-│   ├── 03_Stage2_Engagement.ipynb
-│   └── 04_Stage3_Performance_and_Leakage_Audit.ipynb
 ├── media/                  # Visualizations & ROC Curves
 ├── requirements.txt        # Dependencies
 └── README.md               # Documentation
