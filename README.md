@@ -1,5 +1,7 @@
 # 🎓 Student Retention & Dropout Prediction Engine
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/cfdcc906-fa3f-4aac-97b8-34966aac45a6" />
+
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)](https://xgboost.readthedocs.io/)
 [![TensorFlow](https://img.shields.io/badge/Model-Neural%20Network-yellow?logo=tensorflow)](https://www.tensorflow.org/)
