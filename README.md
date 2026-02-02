@@ -7,7 +7,7 @@
 [![TensorFlow](https://img.shields.io/badge/Model-Neural%20Network-yellow?logo=tensorflow)](https://www.tensorflow.org/)
 [![Status](https://img.shields.io/badge/Status-Completed-green)]()
 
-A comparative supervised learning study utilizing **XGBoost** and **Neural Networks** to predict student dropout risk across 25,000+ learners. The system is designed to enable early intervention strategies for and international education company.
+A comparative supervised learning study utilizing **XGBoost** and **Neural Networks** to predict student dropout risk across 25,000+ learners. The system is designed to enable early intervention strategies for an international education company.
 
 ## 🎯 Business Problem
 
