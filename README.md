@@ -51,9 +51,9 @@ The analysis was structured into a **3-Stage Feature Evolution Pipeline** to det
 *   **Handling Imbalance:** Applied **Class Weighting** (6:1 imbalance) to prioritize Recall (catching dropouts) over accuracy.
 *   **Evaluation:** AUC-ROC (primary), F1-Score, and Confusion Matrices.
 
-## 📉 Critical Analysis & "Senior" Insights
+## 📉 Critical Finding
 
-A key differentiator of this project was the **Post-Mortem Analysis** of Stage 3.
+A key finding of this project was the **Post-Mortem Analysis** of Stage 3.
 
 **The Data Leakage Discovery:**
 While Stage 3 achieved near-perfect metrics, I identified that features like `FailedModules` likely arrive *simultaneously* with the dropout event, rendering them useless for *early* prediction.
@@ -79,6 +79,5 @@ Despite Neural Networks showing marginally higher AUC in some tests, **XGBoost**
 
 ```text
 ├── notebooks/
-├── media/                  # Visualizations & ROC Curves
 ├── requirements.txt        # Dependencies
 └── README.md               # Documentation
