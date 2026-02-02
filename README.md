@@ -71,7 +71,7 @@ While Stage 3 achieved near-perfect metrics, I identified that features like `Fa
 | **XGBoost** | Stage 3 | Near-Perfect Accuracy | **Rejected (Data Leakage)** |
 
 **Why XGBoost Won:**
-Despite Neural Networks showing marginally higher AUC in some tests, **XGBoost** was selected for the final recommendation due to:
+Despite Neural Networks showing marginally higher AUC in some tests, **XGBoost** was selected for the final prediction model due to:
 1.  **Explainability:** Feature importance plots (SHAP) allowed stakeholders to understand *why* a student was flagged (e.g., "High Absence").
 2.  **Efficiency:** Lower training cost and faster inference latency compared to the Deep Learning stack.
 
